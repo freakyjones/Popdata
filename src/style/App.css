@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:&family=Muli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Muli', sans-serif;
+     font-weight: 300;
+     background: #ED7804;
+}
+header{
+    height: 100vh;
+    background:url('../img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_left{
+    width: 50%;
+    height: 100vh;
+    padding: 1em;
+}
+.content_right{
+    width: 50%;
+}
+.position_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.heading_txt h1{
+    color: #FFFFF5;
+    font-size:3rem;
+    text-transform: capitalize;
+    line-height: 1;
+    width: 100%;
+    max-width: 12em;
+}
+.heading_txt p{
+    margin-top: 1em;
+    color: #000;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 27em;
+    font-weight: 100;
+    line-height: 1.2;
+    opacity: 0.8;
+     font-family: 'Crimson Text', serif;
+}
+.know_more{
+    margin-top: 1.4em;
+    font-size: 1.3rem;
+    width: 100%;
+    max-width: 10em;
+    height: 2em;
+    background-color: #FF0033;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.know_more a{
+    text-decoration: none;
+    color: #FFFFF5;
+}
+.theme_btn{
+    margin-top: 1.4em;
+    background-color: #fff;
+    max-width: 100%;
+    width: 10em;
+    border-radius: 4em;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.btn::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 1em;
+    width: 4em;
+    height: 2em;
+    background-color: burlywood;
+    border-radius: 5px;
+  
+}
+ .btn img{
+  margin: 0 1em;
+}
+.upper_section{
+    margin-top: 2em;
+    height: 50vh;
+    width: 100%;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+
+}
+.upper_section .heading_txt{
+    width: 50%;
+}
+
+.upper_section .heading_txt h1{
+    width: 100%;
+    max-width: 13.8em;
+}
+.upper_section .heading_txt p{
+    width: 100%;
+    max-width: 24em;
+}
+ .types{
+    width: 50%;
+}
+.show_case{
+
+    width: 100%;
+    background-color:  #FF0033;
+    max-width: 30em;
+    margin:1em auto 0 auto;
+    height: 10em;
+    border-radius: 0.5em;
+}
+.show_case h2{
+    padding: 0.5em;
+    width: 100%;
+    max-width: 10em;
+    font-size: 3rem;
+    text-align: center;
+    color: #FFFFF5 ;
+}
+form{
+    width: 100%;
+    max-width: 15em;
+    margin: 0 auto 0 auto;
+}
+form div + div{
+    margin-left: 2em;
+   
+}
+form div {
+    justify-content: center;
+    align-items: center;
+}
+form div label{
+    color:  #FFFFF5;
+}
+
+.axis{
+    width: 100%;
+    max-width: 10em;
+    margin:2em auto 0 auto;
+}
+.x{
+    position: relative;
+}
+.x p{
+    color:#FFFFF5 ;
+}
+.x::before{
+    display: block;
+    content: '';
+    position: absolute;
+    background-color:#FF0033 ;
+    height: 1em;
+    width: 1em;
+    top:0.1em;
+    left:-1.5em;
+}
+.y{
+    position: relative;
+}
+.y p{
+    color:#FFFFF5 ;
+}
+.y::before{
+    display: block;
+    content: '';
+    position: absolute;
+    background-color:#FF0033 ;
+    height: 1em;
+    width: 1em;
+    top:0.1em;
+    left:-1.5em;
+}
+.line{
+    margin-left: 1.3em;
+    position: relative;
+}
+.line::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1em;
+    height: 0.1em;
+    background-color: #000;
+    top: 0.5em;
+    left: -1em;
+}
+.line p{
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: #000;
+}
+.lower_section{
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+footer{
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#chart{
+    margin-top: 2em;
+}
